@@ -21,7 +21,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Codeminos\\Settings\\SettingsServiceProvider"
+        "Codeminos\\Settings\\Providers\\SettingsServiceProvider"
       ],
       "aliases": {
         "Setting": "Codeminos\\Settings\\Facades\\Setting"

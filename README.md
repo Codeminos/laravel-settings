@@ -7,7 +7,7 @@ A simple and flexible settings manager for Laravel applications, allowing you to
 You can install the package via Composer:
 
 ```
-composer require codeminos/settings
+composer require codeminos/laravel-settings
 ```
 
 ## Publish Configuration & Migrations
