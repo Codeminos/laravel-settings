@@ -1,0 +1,33 @@
+{
+  "name": "codeminos/laravel-settings",
+  "description": "A simple settings management system for Laravel.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Codeminos\\Settings\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Hassan Zeaiter",
+      "email": "hassan@codeminos.io"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "illuminate/support": "^9.0|^10.0|^11.0|^12.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Codeminos\\Settings\\SettingsServiceProvider"
+      ],
+      "aliases": {
+        "Setting": "Codeminos\\Settings\\Facades\\Setting"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
